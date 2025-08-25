@@ -8,8 +8,8 @@ import catboost as cb
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 # ---- Paths & constants ----
-DATA_ROOT  = "D:\\Veltrix\\data"
-OUTPUT_DIR = "D:\\Veltrix\\output"
+DATA_ROOT  = "Your Path"
+OUTPUT_DIR = "Your Path"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 STREAMING_COLLECT = True
