@@ -4,6 +4,10 @@ import os
 
 def analyze_search_log():
     """
+    ENGLISH:
+    Analyzes the search-term log file and displays only the missing values in a table.
+    
+    TÜRKÇE:
     Arama terimi log dosyasını analiz eder ve sadece eksik değerleri tablo halinde gösterir
     """
 
