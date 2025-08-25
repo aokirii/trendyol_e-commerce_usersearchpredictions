@@ -4,16 +4,20 @@ import os
 
 def analyze_product_data():
     """
+    ENGLISH:
+    Analyzes product data and displays only the missing values in a tabular format.
+
+    TÜRKÇE:
     Ürün verilerini analiz eder ve sadece eksik değerleri tablo halinde gösterir
     """
 
     # Dosya yolları
     file_paths = {
-        'metadata': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/content/metadata.parquet',
-        'price_rate_review_data': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/content/price_rate_review_data.parquet',
-        'search_log': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/content/search_log.parquet',
-        'sitewide_log': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/content/sitewide_log.parquet',
-        'top_terms_log': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/content/top_terms_log.parquet'
+        'metadata': 'YOUR FILE PATH',
+        'price_rate_review_data': 'YOUR FILE PATH',
+        'search_log': 'YOUR FILE PATH',
+        'sitewide_log': 'YOUR FILE PATH',
+        'top_terms_log': 'YOUR FILE PATH'
     }
 
     print("ÜRÜN VERİ ANALİZ RAPORU")
