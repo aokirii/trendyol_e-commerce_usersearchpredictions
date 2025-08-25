@@ -4,13 +4,17 @@ import os
 
 def analyze_session_data():
     """
+    ENGLISH:
+    Analyzes session data and displays only the missing values in a table.
+
+    TÜRKÇE:
     Oturum verilerini analiz eder ve sadece eksik değerleri tablo halinde gösterir
     """
 
     # Dosya yolları
     file_paths = {
-        'train_sessions': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/train_sessions.parquet',
-        'test_sessions': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/test_sessions.parquet'
+        'train_sessions': 'YOUR FILE PATH',
+        'test_sessions': 'YOUR FILE PATH'
     }
 
     print("OTURUM VERİ ANALİZ RAPORU")
