@@ -73,10 +73,17 @@ LOGICAL_FILES = {
 # ---- Helpers ----
 def find_one(root, patterns):
     '''
+	ENGLISH:
     •	Does: Scans root with multiple glob patterns and returns the first matching file path (sorted for determinism).
 	•	Inputs: root: str, patterns: list[str].
 	•	Returns: str | None.
 	•	Notes: Stops at the first non-empty match list.
+
+  	TURKISH:
+   	•	Ne yapar: Bir kök klasörde, verilen çoklu glob pattern’lerinden ilk eşleşen dosya yolunu döndürür.
+	•	Girdi: root (str), patterns (list[str]).
+	•	Çıktı: Yol (str) ya da None.
+	•	Not: İlk bulunanı döndürür (deterministik olması için sort var).
 	'''
     for pat in patterns:
         paths = sorted(glob.glob(os.path.join(root, pat), recursive=True))
