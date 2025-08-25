@@ -5,6 +5,15 @@ from datetime import datetime
 
 def save_analysis_to_csv(all_data, analysis_type="analiz", output_folder="output"):
     """
+    ENGLISH:
+    Saves analysis results to a CSV file.
+
+    Args:
+        all_data: List containing the analysis results.
+        analysis_type: Type of analysis (e.g., "user", "product", "search_term").
+        output_folder: Output folder.
+
+    TÜRKÇE:
     Analiz sonuçlarını CSV dosyasına kaydeder
 
     Args:
@@ -41,12 +50,12 @@ def analyze_and_save_user_data():
     """
 
     file_paths = {
-        'Fashion_search_log': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/user/fashion_search_log.parquet',
-        'Fashion_sitewide_log': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/user/fashion_sitewide_log.parquet',
-        'metadata': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/user/metadata.parquet',
-        'search_log': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/user/search_log.parquet',
-        'sitewide_log': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/user/sitewide_log.parquet',
-        'top_terms_log': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/user/top_terms_log.parquet'
+        'Fashion_search_log': 'YOUR FILE PATH',
+        'Fashion_sitewide_log': 'YOUR FILE PATH',
+        'metadata': 'YOUR FILE PATH',
+        'search_log': 'YOUR FILE PATH',
+        'sitewide_log': 'YOUR FILE PATH',
+        'top_terms_log': 'YOUR FILE PATH'
     }
 
     print("KULLANICI VERİ ANALİZ RAPORU")
@@ -98,7 +107,7 @@ def analyze_and_save_search_data():
     Arama terimi verilerini analiz eder ve CSV'ye kaydeder
     """
 
-    file_path = '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/term/search_log.parquet'
+    file_path = 'YOUR FILE PATH'
 
     print("ARAMA TERİMİ VERİ ANALİZ RAPORU")
     print("=" * 80)
@@ -145,11 +154,11 @@ def analyze_and_save_product_data():
     """
 
     file_paths = {
-        'metadata': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/content/metadata.parquet',
-        'price_rate_review_data': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/content/price_rate_review_data.parquet',
-        'search_log': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/content/search_log.parquet',
-        'sitewide_log': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/content/sitewide_log.parquet',
-        'top_terms_log': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/content/top_terms_log.parquet'
+        'metadata': 'YOUR FILE PATH',
+        'price_rate_review_data': 'YOUR FILE PATH',
+        'search_log': 'YOUR FILE PATH',
+        'sitewide_log': 'YOUR FILE PATH',
+        'top_terms_log': 'YOUR FILE PATH'
     }
 
     print("ÜRÜN VERİ ANALİZ RAPORU")
@@ -201,8 +210,8 @@ def analyze_and_save_session_data():
     """
 
     file_paths = {
-        'train_sessions': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/train_sessions.parquet',
-        'test_sessions': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/test_sessions.parquet'
+        'train_sessions': 'YOUR FILE PATH',
+        'test_sessions': 'YOUR FILE PATH'
     }
 
     print("OTURUM VERİ ANALİZ RAPORU")
