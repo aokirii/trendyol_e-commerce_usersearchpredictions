@@ -4,17 +4,21 @@ import os
 
 def analyze_parquet_files():
     """
+    ENGLISH:
+    Analyzes Parquet files and displays missing values in a table.
+    
+    TÜRKÇE:
     Parquet dosyalarını analiz eder ve eksik değerleri tablo halinde gösterir
     """
 
     # Dosya yolları
     file_paths = {
-        'Fashion_search_log': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/user/fashion_search_log.parquet',
-        'Fashion_sitewide_log': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/user/fashion_sitewide_log.parquet',
-        'metadata': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/user/metadata.parquet',
-        'search_log': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/user/search_log.parquet',
-        'sitewide_log': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/user/sitewide_log.parquet',
-        'top_terms_log': '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/user/top_terms_log.parquet'
+        'Fashion_search_log': 'YOUR FILE PATH',
+        'Fashion_sitewide_log': 'YOUR FILE PATH',
+        'metadata': 'YOUR FILE PATH',
+        'search_log': 'YOUR FILE PATH',
+        'sitewide_log': 'YOUR FILE PATH',
+        'top_terms_log': 'YOUR FILE PATH'
     }
 
     print("VERİ ANALİZ RAPORU")
