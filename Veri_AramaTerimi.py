@@ -11,7 +11,7 @@ def analyze_search_log():
     Arama terimi log dosyasını analiz eder ve sadece eksik değerleri tablo halinde gösterir
     """
 
-    file_path = '/Users/kasimesen/Desktop/Veltrix/Kodlar/data/term/search_log.parquet'
+    file_path = 'YOUR FILE PATH'
 
     print("ARAMA TERİMİ VERİ ANALİZ RAPORU")
     print("=" * 80)
